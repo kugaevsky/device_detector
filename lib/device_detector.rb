@@ -70,7 +70,7 @@ class DeviceDetector
     end
   end
 
-  attr_reader :client_hint, :user_agent
+  attr_reader :client_hints, :user_agent
 
   def initialize(user_agent = nil, headers = nil)
     @parsers = {}
